@@ -65,7 +65,6 @@ namespace _00_判斷年月日
                 Console.WriteLine(e);
             }
             Console.ReadKey();
-
         }
     }
 }
