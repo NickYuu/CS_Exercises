@@ -18,7 +18,7 @@ namespace _05_質數判斷
                 var readOK = int.TryParse(numStr, out num);
                 if (readOK)
                 {
-                    if (isPrime(num))
+                    if (IsPrime(num))
                     {
                         Console.WriteLine("{0} 是質數!", num);
                     }
@@ -35,7 +35,12 @@ namespace _05_質數判斷
             }
         }
 
-        static bool isPrime(int k)
+        /// <summary>
+        /// 判斷是否為質數
+        /// </summary>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        private static bool IsPrime(int k)
         {
             var isPrime = true;
             for (int i = 2; i < k; i++)
