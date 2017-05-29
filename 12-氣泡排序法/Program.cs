@@ -23,7 +23,7 @@ namespace _12_氣泡排序法
             }
 
             Console.WriteLine("\n\n----------------------\n");
-            Console.WriteLine("系統的降序  Array.Reverse(array); ");
+            Console.WriteLine("系統陣列反轉  Array.Reverse(array); ");
 
             Array.Reverse(array);
             foreach (var t in array)
