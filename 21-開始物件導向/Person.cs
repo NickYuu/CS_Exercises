@@ -17,9 +17,6 @@ namespace _21_開始物件導向
             this.Age = age;
         }
 
-        public Person()
-        {
-        }
 
         public string SayHello() => $"你好，我是{Name}, 今年{Age}歲";
     }
