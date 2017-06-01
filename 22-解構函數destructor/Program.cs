@@ -15,10 +15,12 @@ namespace _22_解構函數destructor
 
             var p = new Person();
             var i = 0;
+            
             while (true)
             {
                 Console.WriteLine(i);
                 p = new Person();
+                System.GC.Collect();
                 Console.ReadKey();
                 i++;
             }
